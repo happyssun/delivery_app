@@ -12,7 +12,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={NotoSanKR.className}>
-      <body className="min-h-screen max-w-screen-xl">{children}</body>
+      <body className="relative min-h-screen max-w-screen-xl bg-gray-200">
+        {children}
+      </body>
     </html>
   );
 }
